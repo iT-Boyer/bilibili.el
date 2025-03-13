@@ -616,7 +616,7 @@ Network -> Request Header -> cookie 条目上右键复制可得。"
 ;; 如果不需要这个，将 bilibili 从 `mpvi-org-https-link-rules' 移除即可
 
 ;;;###autoload
-(add-to-list 'mpvi-org-https-link-rules "www.bilibili.com/")
+;;(add-to-list 'mpvi-org-https-link-rules "www.bilibili.com/")
 
 (provide 'bilibili)
 
